@@ -1,0 +1,19 @@
+[04-Sep-2017 18:43:16 UTC] PHP Notice:  Undefined variable: db in C:\wamp\www\knjige\domen\ocenaKlasa.php on line 32
+[04-Sep-2017 18:43:16 UTC] PHP Stack trace:
+[04-Sep-2017 18:43:16 UTC] PHP   1. {main}() C:\wamp\www\knjige\oceni.php:0
+[04-Sep-2017 18:43:16 UTC] PHP   2. Ocena->novaOcena() C:\wamp\www\knjige\oceni.php:14
+[04-Sep-2017 18:43:16 UTC] PHP Fatal error:  Call to a member function insert() on a non-object in C:\wamp\www\knjige\domen\ocenaKlasa.php on line 32
+[04-Sep-2017 18:43:16 UTC] PHP Stack trace:
+[04-Sep-2017 18:43:16 UTC] PHP   1. {main}() C:\wamp\www\knjige\oceni.php:0
+[04-Sep-2017 18:43:16 UTC] PHP   2. Ocena->novaOcena() C:\wamp\www\knjige\oceni.php:14
+[04-Sep-2017 20:00:19 UTC] PHP Warning:  Missing argument 1 for Knjiga::novaKnjiga(), called in C:\wamp\www\knjige\unosKnjige.php on line 10 and defined in C:\wamp\www\knjige\domen\knjigaKlasa.php on line 12
+[04-Sep-2017 20:00:19 UTC] PHP Stack trace:
+[04-Sep-2017 20:00:19 UTC] PHP   1. {main}() C:\wamp\www\knjige\unosKnjige.php:0
+[04-Sep-2017 20:00:19 UTC] PHP   2. Knjiga->novaKnjiga() C:\wamp\www\knjige\unosKnjige.php:10
+[05-Sep-2017 07:59:18 UTC] PHP Notice:  Undefined index: id in C:\wamp\www\knjige\prvi\oceni.php on line 7
+[05-Sep-2017 07:59:18 UTC] PHP Stack trace:
+[05-Sep-2017 07:59:18 UTC] PHP   1. {main}() C:\wamp\www\knjige\prvi\oceni.php:0
+[05-Sep-2017 07:59:18 UTC] PHP Notice:  Undefined offset: 0 in C:\wamp\www\knjige\prvi\db.php on line 192
+[05-Sep-2017 07:59:18 UTC] PHP Stack trace:
+[05-Sep-2017 07:59:18 UTC] PHP   1. {main}() C:\wamp\www\knjige\prvi\oceni.php:0
+[05-Sep-2017 07:59:18 UTC] PHP   2. MysqliDb->getOne() C:\wamp\www\knjige\prvi\oceni.php:8
